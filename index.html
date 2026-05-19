@@ -280,7 +280,7 @@
             localStorage.setItem('records', JSON.stringify(records));
 
             // 2. CONEXIÓN EN VIVO A GOOGLE SHEETS CLOUD
-            if (GOOGLE_SHEETS_URL && GOOGLE_SHEETS_URL !== "https://script.google.com/macros/s/AKfycbxdF6ocDohrYi78DItl-Jzepxw_8coxr7mE1qLofEojLo7iX4a2qz4jyfiK_c4TncqG/exec") {
+            if (GOOGLE_SHEETS_URL && GOOGLE_SHEETS_URL !== "https://script.google.com/macros/s/AKfycbxkF1b-Hl0HaTiSeSCwGGhT3ONkExe9Ft7sFVERONVJ-xaadZnuz0DMP6vt8c0bcPBHtA/exec") {
                 activeTaskIndicator.innerText = "⏳ Sincronizando con Google Sheets...";
                 
                 fetch(GOOGLE_SHEETS_URL, {
